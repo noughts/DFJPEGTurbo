@@ -8,7 +8,6 @@ Pod::Spec.new do |spec|
     spec.summary = 'Objective-C libjpeg-turbo wrapper'
     spec.source = {
         :git => 'https://github.com/noughts/DFJPEGTurbo.git',
-        :tag => 'v0.1.0'
     }
     spec.public_header_files = 'DFJPEGTurbo/DFJPEGTurbo.h'
     spec.source_files = 'DFJPEGTurbo/**/*.{h,m}'
